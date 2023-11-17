@@ -1,0 +1,16 @@
+{
+    "test": {
+        "password": "62I8anq3cFq5GYh2u4Lh",
+        "user": "candidate",
+        "host": "rc1br21uoagjy1t7k77h.mdb.yandexcloud.net",
+        "port": 6432,
+        "database": "db1"
+    },
+    "testLocal": {
+        "password": "pgPwd",
+        "user": "pgUser",
+        "host": "localhost",
+        "port": 5430,
+        "database": "test_db"
+    }
+}

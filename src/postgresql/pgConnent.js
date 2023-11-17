@@ -1,8 +1,8 @@
-import { Pool } from 'pg'
-import { pgConfig } from '../../config/pgConfig'
+import pg from 'pg'
+import { pgConfig } from '../config/pgConfig.js';
 
-// по задаче не подразумевается что будут паралельные подключения к бд 
-// но в реале почти всегда будет пул соединений
-const pool = new Pool(pgConfig);
+const pool = new pg.Pool(pgConfig);
 
-
+export {
+    pool,
+}

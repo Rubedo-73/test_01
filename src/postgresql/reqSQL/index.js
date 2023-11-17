@@ -4,6 +4,9 @@ const createMainTable = `CREATE TABLE test_01 (
     data jsonb,
 );`
 
+const getTabels = `SELECT * FROM pg_catalog.pg_tables;`
+
 export {
-    createMainTable
+    createMainTable,
+    getTabels,
 }
